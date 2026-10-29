@@ -15,7 +15,6 @@ import com.klef.soa.docker.service.SolarService;
 @CrossOrigin(origins = {
     "http://localhost:3000"
 })
-@RequestMapping("/solar")
 public class SolarController {
 
     @Autowired
