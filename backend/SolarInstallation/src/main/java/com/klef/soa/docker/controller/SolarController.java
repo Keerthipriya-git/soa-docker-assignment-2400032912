@@ -12,6 +12,7 @@ import com.klef.soa.docker.entity.Solar;
 import com.klef.soa.docker.service.SolarService;
 
 @RestController
+@RequestMapping("/solar")
 @CrossOrigin(origins = {
     "http://localhost:3000"
 })
